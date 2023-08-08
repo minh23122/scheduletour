@@ -1,0 +1,7 @@
+model\DiaDiem.class
+controller\TourDAO.class
+controller\DiaDiemDAO.class
+controller\LichTrinhDAO.class
+model\LichTrinh.class
+controller\DAO.class
+model\Tour.class
