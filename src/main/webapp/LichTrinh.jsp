@@ -49,7 +49,7 @@
 
 
     %>
-    <label>Lên lịch trình tour:<%=tourId%>< /label>
+    <label>Lên lịch trình tour:<%=tourId%></label>
     <body>
         <h2>Danh sách địa điểm có trong lịch trình</h2>
         <table>
@@ -85,7 +85,7 @@
     </tr>
     <%}%>
 </table>
-<button onclick="<%ltdao.save(ltId, tourId);%> window.alert('Them lt thành công'); window.location.href = './index.html'" autofocus>Lưu</button>
+<button onclick="<%ltdao.save(ltId, tourId);%> window.alert('Lưu lt thành công'); window.location.href = './index.html'" autofocus>Lưu</button>
 <button onclick="window.location.href = './TimDDDV.jsp?tourid=<%=tourId%>'">Thêm địa điểm, dịch vụ cung cấp</button>
 <button onclick="window.alert('Hủy lên lịch thành công');window.location.href = './index.html'">Cancel</button>
 </body>
